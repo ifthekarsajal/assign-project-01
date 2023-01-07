@@ -3,17 +3,17 @@
 .banner{
    
     width: 1340px;
-    height: 708px;
+    height: 808px;
     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     display: flex;
     justify-content: space-between;
  
 }
 .banner-part-2{
     margin-top: 100px;
-    margin-left: 750px;
+    margin-left: 850px;
     color: #fff;
 }
 .banner-part-2 h3{
@@ -46,4 +46,123 @@
 
 /* banner part end */
 
- 
+/* failure part start here */
+
+.failure{
+    width: 1072px;
+    height: 724px;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.failure-part-1{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.failure-part-2{
+    width: 600px;
+    margin-top: 300px;
+    margin-left: 100px;
+
+}
+.failure-part-2 h4 {
+    font-size:32px;
+    line-height: 36px;
+    font-weight: 700;
+   
+}
+.failure-part-2 p {
+    font-size:16px;
+    line-height: 22px;
+    
+}
+.failure-part-2 span {
+    font-size:16px;
+    line-height: 22px;
+    
+}
+.failure-part-2 i{
+
+    color: #16D887;
+    padding:2px;
+}
+
+/* Plans part start here */
+
+ .plans span{
+    margin-top: 120px;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    font-style: normal;   
+    
+ }
+.plans-item{
+    width: 1140px;
+    height: 205px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 100px;
+}
+
+ .plans h3{
+    font-weight: 700;
+    font-family: 'Work Sans';
+    font-style: normal;
+
+ }
+ .plans h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737272;
+ }
+
+/* gradient parts start here */
+
+.gradient-part{
+    width: 1140px;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(to left, rgba(180, 206, 228, 0.2), rgba(15, 99, 166, 0.73)),
+    url('../images/watch.png');
+      
+}
+.gradient-part-1 h3{
+    margin-top:50px;
+    display: inline-block;
+    color:#fff;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-left:30px; 
+    font-family: 'Work Sans';
+    font-style: normal;
+
+}
+.gradient-part-1 button{
+    background-color: #fff;
+    border:1px solid #0960A8;
+    color:#0960A8;
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    font-weight: 700;
+    padding: 14px 18px;
+     margin-left:30px; 
+    font-family: 'Work Sans';
+    font-style: normal;
+
+}
